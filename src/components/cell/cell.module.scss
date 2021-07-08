@@ -1,0 +1,54 @@
+$borderColor: rgba(0, 0, 0, 0.5);
+$borderHoverColor: rgba(0, 0, 0, 0.7);
+
+$shadowColor: rgba(138, 183, 255, 0.350);
+$shadowHoverColor: rgba(138, 183, 255, 0.550);
+
+$backgroundDefaultColor: rgba(0, 0, 0, 0.1);
+$backgroundXColor: rgba(0, 0, 0, 0);
+$backgroundOColor: rgba(0, 0, 0, 0);
+
+$backgroundDefaultHoverColor: rgba(0, 0, 0, 0.3);
+$backgroundXHoverColor: rgba(0, 0, 0, 0);
+$backgroundOHoverColor: rgba(0, 0, 0, 0);
+
+.cell {
+  width: 60px;
+  height: 60px;
+
+  border: 1px solid $borderColor;
+  border-radius: 12px;
+
+  background-color: $backgroundDefaultColor;
+  box-shadow: 2px 2px 4px 4px $shadowColor;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    border: 1px solid $borderHoverColor;
+    background-color: $backgroundDefaultHoverColor;
+    box-shadow: 3px 3px 5px 5px $shadowHoverColor;
+  }
+
+  &[data-pushed="true"] {
+
+  }
+
+  &[data-X="true"] {
+    
+  }
+
+  &[data-O="true"] {
+    
+  }
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+}

@@ -1,0 +1,11 @@
+$contentBackgroundColor: rgba(0, 0, 0, 0.12);
+
+.content {
+  background-color: $contentBackgroundColor;
+  border-radius: 20px;
+
+  margin: 0;
+  padding: 25px 35px;
+
+  width: auto;
+}
