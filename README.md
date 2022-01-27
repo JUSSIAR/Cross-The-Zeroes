@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+## Попытка реализации бота под текущий флоу
+
+> https://colab.research.google.com/drive/18nbHI7ewIMo2nAM8-uUrHxcFwaDXnEEL#scrollTo=F8RovsFjyGPQ
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
